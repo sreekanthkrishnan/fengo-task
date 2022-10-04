@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: 0 0;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    outline: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="text"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+}
+input[type="button"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote {
+    quotes: none;
+}
+blockquote:after,
+blockquote:before {
+    content: "";
+    content: none;
+}
+del {
+    text-decoration: line-through;
+}
+address,
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+body {
+    font-family: gordita_regular;
+    font-size: 17px;
+    color: #545454;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    min-width: 320px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+input,
+select,
+textarea {
+    font-family: gordita_regular;
+}
+html {
+    overflow: scroll;
+    scroll-behavior: smooth !important;
+}
+.areas::-webkit-input-placeholder {
+    color: #9b9a9a;
+}
+html.modal-enabled {
+    overflow: hidden !important;
+}
+a {
+    display: inline-block;
+    color: #545454;
+    text-decoration: none;
+}
+.submit:hover,
+a:hover {
+    -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+    opacity: 0.85;
+}
+.thumb {
+    display: block;
+}
+.thumb img {
+    display: block;
+    width: 100%;
+}
+img {
+    display: block;
+    width: 100%;
+}
+p {
+    line-height: 1.6em;
+    font-size: 16px;
+    color: #545454;
+    font-family: gordita_regular;
+}
+.hidden {
+    display: none;
+}
+br.clear {
+    clear: both;
+    line-height: 0;
+}
+.bold {
+    font-family: gordita_bold;
+}
+.e-t-h {
+    margin-bottom: 25px;
+}
+.e-t-h2 {
+    font-size: 37px;
+    color: #444;
+    font-family: gordita_bold;
+    letter-spacing: 0.02rem;
+}
+.wrapper {
+    padding-top: 67px;
+    /* transition: margin 0.3s ease-in-out; */
+    margin-left: 160px;
+    position: unset !important;
+}
+.g-regular {
+    font-family: gordita_regular;
+}
+.g-medium {
+    font-family: gordita_medium;
+}
+.g-semi {
+    font-family: gordita_bold;
+}
+.white {
+    color: #fff;
+}
+.black {
+    color: #000;
+}
+a,
+h1,
+h2,
+input {
+    font-family: gordita_regular;
+    color: #000;
+}
+input::-webkit-input-placeholder {
+    color: #9b9a9a;
+}
+input:-moz-placeholder {
+    color: #9b9a9a;
+}
+@font-face {
+    font-display: auto;
+    font-family: gordita_regular;
+    src: url(../fonts/gordita/gordita-regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-display: auto;
+    font-family: gordita_medium;
+    src: url(../fonts/gordita/gordita-medium.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: gordita_bold;
+    src: url(../fonts/gordita/gordita-bold.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+#main {
+    padding: 66px 10px 10px 260px;
+}
+@media all and (max-width: 980px) {
+    .wrapper {
+        margin-left: 70px;
+    }
+}
+@media all and (max-width: 480px) {
+    .wrapper {
+        margin-left: 0;
+    }
+}
+
+html.modal-enabled {
+    overflow: hidden;
+}
